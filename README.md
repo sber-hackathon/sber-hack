@@ -2,7 +2,7 @@
 
 ## КОПИРОВАНИЕ РЕПОЗИТОРИЯ
 * ПКМ ПО РАБОЧЕМУ СТОЛУ ИЛИ ДР. ПАПКЕ
-* Open Git Bash here, фото снизу
+* Open Git Bash here, фото снизу<br>
 ![image](https://github.com/user-attachments/assets/c8d48200-2154-44bc-9166-0e38308496d3)
 * Пишем туда `git clone <url>`
 
