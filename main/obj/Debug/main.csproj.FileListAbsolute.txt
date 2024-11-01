@@ -5,3 +5,10 @@ C:\Users\vasya\source\repos\main\main\obj\Debug\main.csproj.AssemblyReference.ca
 C:\Users\vasya\source\repos\main\main\obj\Debug\main.csproj.CoreCompileInputs.cache
 C:\Users\vasya\source\repos\main\main\obj\Debug\main.exe
 C:\Users\vasya\source\repos\main\main\obj\Debug\main.pdb
+C:\Users\vasya\OneDrive\Рабочий стол\sber-hack\main\bin\Debug\main.exe.config
+C:\Users\vasya\OneDrive\Рабочий стол\sber-hack\main\bin\Debug\main.exe
+C:\Users\vasya\OneDrive\Рабочий стол\sber-hack\main\bin\Debug\main.pdb
+C:\Users\vasya\OneDrive\Рабочий стол\sber-hack\main\obj\Debug\main.csproj.AssemblyReference.cache
+C:\Users\vasya\OneDrive\Рабочий стол\sber-hack\main\obj\Debug\main.csproj.CoreCompileInputs.cache
+C:\Users\vasya\OneDrive\Рабочий стол\sber-hack\main\obj\Debug\main.exe
+C:\Users\vasya\OneDrive\Рабочий стол\sber-hack\main\obj\Debug\main.pdb
