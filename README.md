@@ -27,3 +27,8 @@ git clone https://github.com/sber-hackathon/sber-hack.git
 4. Опять проверяем `git status`, если все зеленое, то кайф
 5. git push origin <название вашей ветки>
    * НАПРИМЕР `git push origin vasya`
+
+## ЕСЛИ НУЖНО БУДЕТ "ПОДТЯНУТЬ" ИЗМЕНЕНИЯ
+1. `git checkout main`
+2. `git pull`
+
