@@ -1,0 +1,7 @@
+C:\Users\vasya\source\repos\main\main\bin\Debug\main.exe.config
+C:\Users\vasya\source\repos\main\main\bin\Debug\main.exe
+C:\Users\vasya\source\repos\main\main\bin\Debug\main.pdb
+C:\Users\vasya\source\repos\main\main\obj\Debug\main.csproj.AssemblyReference.cache
+C:\Users\vasya\source\repos\main\main\obj\Debug\main.csproj.CoreCompileInputs.cache
+C:\Users\vasya\source\repos\main\main\obj\Debug\main.exe
+C:\Users\vasya\source\repos\main\main\obj\Debug\main.pdb
