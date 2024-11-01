@@ -5,7 +5,7 @@ namespace main
 {
     static class Ex1
     {
-        static void Test(string[] args)
+        static void Main(string[] args)
         {
             // 0 - отокуда стартуем,
             // 1 ... - заказы
@@ -76,8 +76,7 @@ namespace main
                 // return steps * 100;
                 Console.ReadLine();
             }
-            else
-            {
+            else {
                 Console.WriteLine("ERROR:\n1 <= N,M <= 1000");
             }
         }
@@ -97,7 +96,7 @@ namespace main
             int firstSpaceIndex = map[index].IndexOf(' ');
 
             // tempNum = номер дома на улице
-            int tempNum = Int32.Parse(map[index].Substring(firstSpaceIndex + 1));
+            int tempNum = Int32.Parse( map[index].Substring(firstSpaceIndex + 1) );
 
             // Поиск номера H или V улицы
             // Если номер четный
