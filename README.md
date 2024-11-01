@@ -12,7 +12,7 @@ git clone https://github.com/sber-hackathon/sber-hack.git
 ```
 ![image](https://github.com/user-attachments/assets/2ce5b037-78ce-4de6-8b3f-c04b984ec063)
 
-## СОЗДАЕМ СВОЮ
+## СОЗДАЕМ СВОЮ ВЕТКУ
 * ПЕРЕХОДИМ В ПАПКУ, КОТОРАЯ СОЗДАЛАСЬ ПОСЛЕ ПРЕДИДУЩЕЙ КОМАНДЫ
 * ПОВТОРЯЕМ ПКМ -> Open Git Bash here <br>
 ![image](https://github.com/user-attachments/assets/1a121c86-07bd-4128-a86a-4deec1805800)
