@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace main
 {
-    static class Ex1
+    internal class Two
     {
         static void Main(string[] args)
         {
@@ -33,15 +33,63 @@ namespace main
                     map.Add(Console.ReadLine());
                 }
 
-                Console.WriteLine(GetDistance(map));
-
+                GetRoute(map, count);
                 Console.ReadLine();
             }
-            else {
+            else
+            {
                 Console.WriteLine("ERROR:\n1 <= N,M <= 1000");
             }
         }
 
+        static List<string> GetRoute(List<string> map, int count)
+        {
+            // Получаем начальные координаты  
+            (int currentH, int currentV) = GetCoord(map);
+            List<string> addressCustomer = new List<string>();
+
+            // Работаем с копией заказов, чтобы отслеживать оставшиеся адреса  
+            List<int> remainingOrders = new List<int>();
+            for (int i = 1; i <= count; i++)
+            {
+                remainingOrders.Add(i);
+            }
+
+            while (remainingOrders.Count > 0)
+            {
+                int nearestIndex = -1;
+                int minDistance = int.MaxValue;
+
+                // Находим ближайший адрес  
+                for (int i = 0; i < remainingOrders.Count; i++)
+                {
+                    int orderIndex = remainingOrders[i];
+                    (int customerH, int customerV) = GetCoord(map, orderIndex);
+                    int distance = Math.Abs(currentH - customerH) + Math.Abs(currentV - customerV);
+
+                    if (distance < minDistance)
+                    {
+                        minDistance = distance;
+                        nearestIndex = orderIndex;
+                    }
+                }
+
+                // Добавляем ближайший адрес в маршрут и обновляем текущие координаты  
+                if (nearestIndex != -1)
+                {
+                    addressCustomer.Add(map[nearestIndex]);
+                    (currentH, currentV) = GetCoord(map, nearestIndex);
+                    remainingOrders.Remove(nearestIndex); // Удалить адрес из оставшихся  
+                }
+            }
+
+            for (int i = 0; i < count; i++)
+            {
+                Console.WriteLine(addressCustomer[i]);
+            }
+
+            return addressCustomer;
+        }
 
         static int GetDistance(List<string> map)
         {
@@ -94,7 +142,7 @@ namespace main
             int firstSpaceIndex = map[index].IndexOf(' ');
 
             // tempNum = номер дома на улице
-            int tempNum = int.Parse( map[index].Substring(firstSpaceIndex + 1) );
+            int tempNum = int.Parse(map[index].Substring(firstSpaceIndex + 1));
 
             // Поиск номера H или V улицы
             // Если номер четный
@@ -130,3 +178,4 @@ namespace main
         }
     }
 }
+
