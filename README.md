@@ -31,4 +31,4 @@ git clone https://github.com/sber-hackathon/sber-hack.git
 ## ЕСЛИ НУЖНО БУДЕТ "ПОДТЯНУТЬ" ИЗМЕНЕНИЯ
 1. `git checkout main`
 2. `git pull`
-
+3. `git checout <ваша ветка>`
